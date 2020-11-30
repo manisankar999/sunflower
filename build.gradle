@@ -13,9 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-plugins {
-  id "org.sonarqube" version "3.0"
-}
 
 buildscript {
     // Define versions in a single place
@@ -73,6 +70,7 @@ buildscript {
 
 plugins {
     id "com.diffplug.spotless" version "5.2.0"
+    id "org.sonarqube" version "3.0"
 }
 
 allprojects {
